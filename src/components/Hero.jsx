@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
+import Musakalim from "../Musakalim.png";
 
 
 const links = [
@@ -78,7 +79,7 @@ export default function Hero() {
           <div className="relative rounded-full border border-violet-300/30 bg-gradient-to-br from-violet-600/40 via-blue-600/10 to-cyan-400/20 p-3 glow">
             <div className="overflow-hidden rounded-full border border-white/10 bg-slate-900">
               <img
-                src="src/Musakalim.png"
+                src={Musakalim}
                 alt="Developer portrait"
                 className="aspect-square w-full object-cover grayscale-[15%]"
               />
